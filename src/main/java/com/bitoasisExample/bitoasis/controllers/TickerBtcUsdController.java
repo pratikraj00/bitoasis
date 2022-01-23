@@ -21,7 +21,7 @@ public class TickerBtcUsdController {
 
     @GetMapping("/all")
     public HttpEntity<?> getAllTickerBtcUsd(@RequestParam(defaultValue = "0") Integer pageNo,
-                                                                 @RequestParam(defaultValue = "10") Integer pageSize)
+                                                                 @RequestParam(defaultValue = "100") Integer pageSize)
     {
 
         try {

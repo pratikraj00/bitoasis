@@ -1,6 +1,8 @@
 package com.bitoasisExample.bitoasis.servicesImpl;
 
 
+import com.bitoasisExample.bitoasis.BitoasisApplication;
+import com.bitoasisExample.bitoasis.entities.AbstractAuditingEntity;
 import com.bitoasisExample.bitoasis.entities.TickerBtcUsd;
 import com.bitoasisExample.bitoasis.exceptions.BusinessException;
 import com.bitoasisExample.bitoasis.repositories.TickerBtcUsdRepository;
@@ -12,6 +14,8 @@ import com.jayway.jsonpath.DocumentContext;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.ReadContext;
 import com.jayway.jsonpath.TypeRef;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -31,11 +35,14 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class TickerBtcUsdServiceImpl implements TickerBtcUsdService{
 
+    private static final Logger logger = LoggerFactory.getLogger(TickerBtcUsdServiceImpl.class);
+
     @Autowired
     private TickerBtcUsdRepository tickerBtcUsdRepository;
 
     @Scheduled(fixedRate =10, timeUnit = TimeUnit.SECONDS)
     public void addTickerUsdBtcJob() throws BusinessException {
+        logger.info("Entered Scheduled job for ticker service class.");
         TickerBtcUsd tickerBtcUsd = new TickerBtcUsd();
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders httpHeaders = new HttpHeaders();
@@ -110,6 +117,7 @@ public class TickerBtcUsdServiceImpl implements TickerBtcUsdService{
 
     @Override
     public TickerBtcUsd getTickerBtcUsdById(long id) {
+        logger.info("Get Ticker by id called for id :" + id);
         return tickerBtcUsdRepository.findById(id).get();
     }
 
