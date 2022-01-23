@@ -5,12 +5,16 @@ import com.bitoasisExample.bitoasis.exceptions.BusinessException;
 import com.bitoasisExample.bitoasis.exceptions.ControllerException;
 import com.bitoasisExample.bitoasis.services.TickerBtcUsdService;
 import com.bitoasisExample.bitoasis.servicesImpl.TickerBtcUsdServiceImpl;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,6 +24,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/TickerBtcUsd")
+@Api(value="Resource for TickerBtcUsd Endpoints")
 public class TickerBtcUsdController {
 
     @Value("${app.name : Default Ticker_Bitoasis}")
@@ -32,8 +37,13 @@ public class TickerBtcUsdController {
 
     @GetMapping("/all")
     @ApiOperation("Returns all ticker btc-usd from database.")
-    public ResponseEntity<?> getAllTickerBtcUsd(@RequestParam(defaultValue = "0") Integer pageNo,
-                                                                 @RequestParam(defaultValue = "100") Integer pageSize)
+    @ApiResponses(value = {
+            @ApiResponse(code= 200, message ="Successful fetch"),
+            @ApiResponse(code= 204, message ="No value Retrieved"),
+            @ApiResponse(code= 400, message ="Unknown exception caught")
+    })
+    public ResponseEntity<?> getAllTickerBtcUsd(@RequestParam(required = false,defaultValue = "0") Integer pageNo,
+                                                                 @RequestParam(required = false,defaultValue = "100") Integer pageSize)
     {
         logger.info("ticker btc-usd controller called to fetch all ticker btc-usd table. ");
         try {
@@ -41,12 +51,12 @@ public class TickerBtcUsdController {
             logger.debug("Return successful from get all ticker btc-usd.");
             if(tickerBtcUsdPage.getContent().isEmpty())
                 return ResponseEntity.noContent().build();
-            return ResponseEntity.ok().body(tickerBtcUsdPage);
+            return new ResponseEntity<Page<TickerBtcUsd>>(tickerBtcUsdPage,HttpStatus.OK);
         }catch(BusinessException e)
         {
             logger.error("Business Exception during fetching of all ticker entities.");
             ControllerException ce = new ControllerException(e.getErrorCode(),e.getErrorMessage());
-            return new ResponseEntity<ControllerException>(ce,HttpStatus.NOT_FOUND);
+            return new ResponseEntity<ControllerException>(ce,HttpStatus.BAD_REQUEST);
         }catch (Exception e)
         {
             logger.error("Exception during fetching of all ticker entities.");
@@ -72,18 +82,26 @@ public class TickerBtcUsdController {
     }
 
     @PutMapping("/update")
+    @ApiOperation("Updates a ticker btc-usd entity")
+    @ApiResponses(value = {
+            @ApiResponse(code= 200, message ="Successful update"),
+            @ApiResponse(code= 404, message ="No value Retrieved to update"),
+            @ApiResponse(code= 400, message ="Unknown exception caught")
+    })
     public ResponseEntity<?> updateTickerBtcUsd(@RequestBody TickerBtcUsd tickerBtcUsd)
     {
         try {
-            logger.info("Entered Ticker Controller update ticker data with id "+ tickerBtcUsd.getId());
+            logger.info("Entered Ticker Controller update ticker data with id "+ tickerBtcUsd);
             TickerBtcUsd tickerBtcUsdSave = tickerBtcUsdService.updateTickerBtcUsd(tickerBtcUsd);
             logger.debug("Completed updation for ticker entity with id "+ tickerBtcUsd.getId());
+            if(tickerBtcUsdSave == null)
+                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
             return new ResponseEntity<TickerBtcUsd>(tickerBtcUsdSave, HttpStatus.OK);
         } catch(BusinessException e)
         {
             logger.error("Business Exception during update of ticker entity with id "+ tickerBtcUsd);
             ControllerException ce = new ControllerException(e.getErrorCode(),e.getErrorMessage());
-            return new ResponseEntity<ControllerException>(ce,HttpStatus.NOT_FOUND);
+            return new ResponseEntity<ControllerException>(ce,HttpStatus.BAD_REQUEST);
         }catch (Exception e)
         {
             logger.error("Exception during update of ticker entity with id "+ tickerBtcUsd);
@@ -92,6 +110,11 @@ public class TickerBtcUsdController {
         }
     }
 
+    @ApiOperation("Deletes a ticker btc-usd entity")
+    @ApiResponses(value = {
+            @ApiResponse(code= 202, message ="Successful Delete"),
+            @ApiResponse(code= 404, message ="No value Retrieved to delete")
+    })
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<?> deleteTickerBtcUsdById(@PathVariable(value = "id") Long id)
     {
@@ -108,6 +131,11 @@ public class TickerBtcUsdController {
         }
     }
 
+    @ApiOperation("Deletes a ticker btc-usd entity")
+    @ApiResponses(value = {
+            @ApiResponse(code= 202, message ="Successful Delete"),
+            @ApiResponse(code= 400, message ="Service error")
+    })
     @DeleteMapping("/delete/all")
     public ResponseEntity<?> deleteAllTickerBtcUsd()
     {
@@ -120,7 +148,7 @@ public class TickerBtcUsdController {
         {
             logger.error("Delete all values of ticker btc-usd EXCEPTION occurred in api controller.");
             ControllerException ce = new ControllerException(e.getErrorCode(),e.getErrorMessage());
-            return new ResponseEntity<ControllerException>(ce,HttpStatus.BAD_GATEWAY);
+            return new ResponseEntity<ControllerException>(ce,HttpStatus.BAD_REQUEST);
         }catch (Exception e)
         {
             logger.info("Delete all values of ticker btc-usd EXCEPTION occurred in api controller.");

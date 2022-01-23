@@ -20,8 +20,7 @@ import java.time.LocalDateTime;
 @EntityListeners(AuditingEntityListener.class)
 @Getter
 @Setter
-@NoArgsConstructor
-public abstract class AbstractAuditingEntity implements Serializable {
+public abstract class AbstractAuditingEntity<U> implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @CreatedBy

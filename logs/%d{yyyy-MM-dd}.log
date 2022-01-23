@@ -2043,3 +2043,827 @@ Caused by: java.lang.NullPointerException: Cannot invoke "org.springframework.we
 2022-01-24 01:56:25 ERROR TickerBtcUsdController:89 - Exception during update of ticker entity with id null
 2022-01-24 01:57:35 ERROR TickerBtcUsdController:89 - Exception during update of ticker entity with id null
 2022-01-24 01:59:33 ERROR TickerBtcUsdController:89 - Exception during update of ticker entity with id null
+2022-01-24 02:29:01 ERROR TickerBtcUsdController:106 - Exception during update of ticker entity with id null
+2022-01-24 02:29:42 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 2316 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 02:29:42 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 02:29:46 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 02:29:46 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 278 ms. Found 1 JPA repository interfaces.
+2022-01-24 02:29:49 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 02:29:49 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 02:29:49 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 02:29:49 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 02:29:49 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 02:29:49 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 6414 ms
+2022-01-24 02:29:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 02:29:50 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 02:29:50 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 02:29:51 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 02:29:51 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 02:29:51 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 02:29:53 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 02:29:53 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 02:29:55 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 02:29:56 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 02:29:56 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 02:29:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:29:57 INFO  BitoasisApplication:61 - Started BitoasisApplication in 15.744 seconds (JVM running for 17.561)
+2022-01-24 02:29:57 INFO  BitoasisApplication:22 - Spring boot application started
+2022-01-24 02:30:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:30:17 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-24 02:30:17 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-01-24 02:30:17 INFO  DispatcherServlet:547 - Completed initialization in 0 ms
+2022-01-24 02:30:17 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id 1240
+2022-01-24 02:30:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:30:23 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id 11110
+2022-01-24 02:30:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:30:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:30:38 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id 11110
+2022-01-24 02:30:45 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id 0
+2022-01-24 02:30:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:30:51 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id 100
+2022-01-24 02:30:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:31:01 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id 0
+2022-01-24 02:31:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:31:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:31:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:31:36 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 02:31:36 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 02:31:36 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 02:31:47 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 14032 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 02:31:48 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 02:31:51 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 02:31:51 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 266 ms. Found 1 JPA repository interfaces.
+2022-01-24 02:31:54 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 02:31:54 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 02:31:54 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 02:31:54 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 02:31:54 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 02:31:54 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 6215 ms
+2022-01-24 02:31:55 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 02:31:55 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 02:31:55 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 02:31:56 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 02:31:57 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 02:31:57 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 02:31:59 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 02:31:59 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 02:32:01 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 02:32:02 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 02:32:02 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 02:32:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:32:03 INFO  BitoasisApplication:61 - Started BitoasisApplication in 16.846 seconds (JVM running for 19.135)
+2022-01-24 02:32:03 INFO  BitoasisApplication:22 - Spring boot application started
+2022-01-24 02:32:08 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-24 02:32:08 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-01-24 02:32:08 INFO  DispatcherServlet:547 - Completed initialization in 0 ms
+2022-01-24 02:32:08 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=100, bid=26.215822, bidSize=0.0, ask=35159.0, askSize=24.672285, dailyChange=-3916.0, dailyChangeRelative=-0.1002, lastPrice=35155.0, volume=20178.426, high=39071.0, low=43854.977}
+2022-01-24 02:32:13 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:32:16 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=1240, bid=26.215822, bidSize=0.0, ask=35159.0, askSize=24.672285, dailyChange=-3916.0, dailyChangeRelative=-0.1002, lastPrice=35155.0, volume=20178.426, high=39071.0, low=43854.977}
+2022-01-24 02:32:21 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=1340, bid=26.215822, bidSize=0.0, ask=35159.0, askSize=24.672285, dailyChange=-3916.0, dailyChangeRelative=-0.1002, lastPrice=35155.0, volume=20178.426, high=39071.0, low=43854.977}
+2022-01-24 02:32:23 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:32:27 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 02:32:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:32:35 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=1497, bid=26.215822, bidSize=0.0, ask=35159.0, askSize=24.672285, dailyChange=-3916.0, dailyChangeRelative=-0.1002, lastPrice=35155.0, volume=20178.426, high=39071.0, low=43854.977}
+2022-01-24 02:32:41 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=1490, bid=26.215822, bidSize=0.0, ask=35159.0, askSize=24.672285, dailyChange=-3916.0, dailyChangeRelative=-0.1002, lastPrice=35155.0, volume=20178.426, high=39071.0, low=43854.977}
+2022-01-24 02:32:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:32:46 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=1499, bid=26.215822, bidSize=0.0, ask=35159.0, askSize=24.672285, dailyChange=-3916.0, dailyChangeRelative=-0.1002, lastPrice=35155.0, volume=20178.426, high=39071.0, low=43854.977}
+2022-01-24 02:32:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:33:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:33:13 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:33:23 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:33:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:33:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:33:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:34:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:34:13 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:34:23 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:34:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:34:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:34:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:35:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:35:13 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:35:23 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:35:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:35:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:35:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:36:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:36:13 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:36:23 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:36:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:36:36 INFO  TickerBtcUsdController:115 - Entered API controller for delete called for ticker id :1230
+2022-01-24 02:36:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:36:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:37:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:37:13 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:37:23 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:37:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:37:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:37:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:38:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:38:13 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:38:23 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:38:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:38:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:38:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:39:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:39:13 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:39:23 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:39:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:39:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:39:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:40:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:40:13 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:40:23 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:40:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:40:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:40:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:41:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:41:09 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=0, bid=0.0, bidSize=0.0, ask=0.0, askSize=0.0, dailyChange=0.0, dailyChangeRelative=0.0, lastPrice=0.0, volume=0.0, high=0.0, low=0.0}
+2022-01-24 02:41:13 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:41:23 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:41:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:41:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:41:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:42:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:42:04 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 02:42:04 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 02:42:04 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 02:42:19 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 27092 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 02:42:19 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 02:42:23 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 02:42:23 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 322 ms. Found 1 JPA repository interfaces.
+2022-01-24 02:42:26 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 02:42:26 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 02:42:26 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 02:42:26 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 02:42:26 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 02:42:26 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 7056 ms
+2022-01-24 02:42:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 02:42:27 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 02:42:28 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 02:42:28 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 02:42:29 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 02:42:29 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 02:42:31 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 02:42:31 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 02:42:33 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 02:42:34 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 02:42:34 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 02:42:35 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:42:35 INFO  BitoasisApplication:61 - Started BitoasisApplication in 16.922 seconds (JVM running for 18.85)
+2022-01-24 02:42:35 INFO  BitoasisApplication:22 - Spring boot application started
+2022-01-24 02:42:45 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-24 02:42:45 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-01-24 02:42:45 INFO  DispatcherServlet:547 - Completed initialization in 4 ms
+2022-01-24 02:42:45 INFO  TickerBtcUsdController:120 - Entered API controller for delete called for ticker id :1
+2022-01-24 02:42:45 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:42:55 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:43:05 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:43:15 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:43:18 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 02:43:25 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:43:35 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:43:45 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:43:55 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:44:05 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:44:12 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=0, bid=0.0, bidSize=0.0, ask=0.0, askSize=0.0, dailyChange=0.0, dailyChangeRelative=0.0, lastPrice=0.0, volume=0.0, high=0.0, low=0.0}
+2022-01-24 02:44:15 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:44:25 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:44:35 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:44:45 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:44:55 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:45:05 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 02:45:13 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 02:45:13 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 02:45:13 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 02:53:59 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 28324 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 02:53:59 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 02:54:02 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 02:54:02 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 147 ms. Found 1 JPA repository interfaces.
+2022-01-24 02:54:04 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 02:54:04 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 02:54:04 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 02:54:04 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 02:54:05 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 02:54:05 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 5710 ms
+2022-01-24 02:54:05 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 02:54:05 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 02:54:06 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 02:54:07 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 02:54:07 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 02:54:07 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 02:54:09 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 02:54:09 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 02:54:11 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 02:54:12 WARN  AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#7983a5d5' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#7983a5d5': Cannot create inner bean '(inner bean)#14580edc' of type [org.springframework.aop.target.LazyInitTargetSource] while setting bean property 'targetSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#14580edc': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'auditorAware' available
+2022-01-24 02:54:12 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 02:54:12 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 02:54:12 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 02:54:12 INFO  StandardService:173 - Stopping service [Tomcat]
+2022-01-24 02:54:12 INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-24 02:54:12 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAware' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAware' in your configuration.
+
+2022-01-24 02:59:31 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 26220 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 02:59:31 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 02:59:34 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 02:59:35 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 244 ms. Found 1 JPA repository interfaces.
+2022-01-24 02:59:37 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 02:59:37 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 02:59:37 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 02:59:37 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 02:59:37 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 02:59:37 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 6283 ms
+2022-01-24 02:59:38 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 02:59:38 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 02:59:39 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 02:59:39 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 02:59:40 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 02:59:40 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 02:59:42 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 02:59:42 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 02:59:44 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 02:59:44 WARN  AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jpaAuditingHandler': Cannot create inner bean '(inner bean)#1248f83' of type [org.springframework.aop.framework.ProxyFactoryBean] while setting bean property 'auditorAware'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#1248f83': Cannot create inner bean '(inner bean)#25890ce3' of type [org.springframework.aop.target.LazyInitTargetSource] while setting bean property 'targetSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#25890ce3': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'auditorAware' available
+2022-01-24 02:59:44 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 02:59:44 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 02:59:44 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 02:59:44 INFO  StandardService:173 - Stopping service [Tomcat]
+2022-01-24 02:59:44 INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-24 02:59:44 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean named 'auditorAware' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'auditorAware' in your configuration.
+
+2022-01-24 03:01:10 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 15736 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 03:01:10 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 03:01:14 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 03:01:14 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 207 ms. Found 1 JPA repository interfaces.
+2022-01-24 03:01:17 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 03:01:17 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:01:17 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 03:01:17 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 03:01:17 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 03:01:17 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 7008 ms
+2022-01-24 03:01:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 03:01:18 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 03:01:19 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 03:01:20 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 03:01:20 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 03:01:20 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 03:01:22 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 03:01:22 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:01:24 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 03:01:25 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:01:25 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 03:01:26 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:01:26 INFO  BitoasisApplication:61 - Started BitoasisApplication in 17.088 seconds (JVM running for 19.014)
+2022-01-24 03:01:26 INFO  BitoasisApplication:27 - Spring boot application started
+2022-01-24 03:01:31 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-24 03:01:31 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-01-24 03:01:31 INFO  DispatcherServlet:547 - Completed initialization in 0 ms
+2022-01-24 03:01:31 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:01:36 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:01:39 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:01:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:01:56 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:02:06 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:02:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:02:26 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:02:36 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:02:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:02:56 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:03:06 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:03:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:03:20 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:03:23 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=1499, bid=26.215822, bidSize=0.0, ask=35159.0, askSize=24.672285, dailyChange=-3916.0, dailyChangeRelative=-0.1002, lastPrice=35155.0, volume=20178.426, high=39071.0, low=43854.977}
+2022-01-24 03:03:26 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:03:36 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:03:40 INFO  TickerBtcUsdController:120 - Entered API controller for delete called for ticker id :1230
+2022-01-24 03:03:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:03:56 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:04:06 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:04:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:04:26 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:04:36 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:04:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:04:56 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:05:06 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:05:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:05:26 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:05:36 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:05:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:05:56 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:06:06 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:06:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:06:26 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:06:36 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:06:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:06:56 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:07:06 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:07:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:07:26 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:07:36 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:07:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:07:56 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:08:06 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:08:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:08:26 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:08:30 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:08:30 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 03:08:30 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 03:08:42 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 16136 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 03:08:42 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 03:08:45 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 03:08:46 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 227 ms. Found 1 JPA repository interfaces.
+2022-01-24 03:08:48 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 03:08:48 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:08:48 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 03:08:48 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 03:08:49 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 03:08:49 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 6246 ms
+2022-01-24 03:08:49 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 03:08:49 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 03:08:50 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 03:08:50 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 03:08:51 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 03:08:51 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 03:08:53 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 03:08:53 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:08:55 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 03:08:56 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:08:56 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 03:08:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:08:57 INFO  BitoasisApplication:61 - Started BitoasisApplication in 15.962 seconds (JVM running for 18.603)
+2022-01-24 03:08:57 INFO  BitoasisApplication:27 - Spring boot application started
+2022-01-24 03:09:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:09:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:09:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:09:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:09:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:09:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:10:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:10:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:10:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:10:32 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-24 03:10:32 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-01-24 03:10:32 INFO  DispatcherServlet:547 - Completed initialization in 2 ms
+2022-01-24 03:10:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:10:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:10:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:11:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:11:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:11:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:11:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:11:39 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:11:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:11:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:12:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:12:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:12:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:12:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:12:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:12:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:13:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:13:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:13:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:13:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:13:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:13:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:14:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:14:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:14:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:14:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:14:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:14:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:15:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:15:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:15:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:15:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:15:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:15:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:16:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:16:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:16:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:16:29 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:16:29 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 03:16:29 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 03:16:43 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 12904 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 03:16:43 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 03:16:46 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 03:16:47 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 288 ms. Found 1 JPA repository interfaces.
+2022-01-24 03:16:49 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 03:16:49 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:16:49 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 03:16:49 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 03:16:49 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 03:16:49 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 6208 ms
+2022-01-24 03:16:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 03:16:50 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 03:16:51 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 03:16:51 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 03:16:52 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 03:16:52 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 03:16:54 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 03:16:54 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:16:56 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 03:16:58 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:16:58 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 03:16:59 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:16:59 INFO  BitoasisApplication:61 - Started BitoasisApplication in 16.766 seconds (JVM running for 19.638)
+2022-01-24 03:16:59 INFO  BitoasisApplication:27 - Spring boot application started
+2022-01-24 03:17:09 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:17:19 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:17:29 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:17:39 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:17:49 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:17:59 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:18:09 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:18:11 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-24 03:18:11 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-01-24 03:18:11 INFO  DispatcherServlet:547 - Completed initialization in 2 ms
+2022-01-24 03:18:11 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:18:19 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:18:29 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:18:39 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:18:42 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:18:42 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 03:18:42 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 03:18:49 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 26816 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 03:18:49 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 03:18:52 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 03:18:53 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 334 ms. Found 1 JPA repository interfaces.
+2022-01-24 03:18:56 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 03:18:56 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:18:56 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 03:18:56 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 03:18:57 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 03:18:57 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 7262 ms
+2022-01-24 03:18:57 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 03:18:57 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 03:18:58 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 03:18:58 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 03:18:59 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 03:18:59 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 03:19:02 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 03:19:02 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:19:04 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 03:19:05 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:19:05 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 03:19:06 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:19:06 INFO  BitoasisApplication:61 - Started BitoasisApplication in 18.755 seconds (JVM running for 22.82)
+2022-01-24 03:19:06 INFO  BitoasisApplication:27 - Spring boot application started
+2022-01-24 03:19:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:19:26 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:19:30 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-24 03:19:30 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-01-24 03:19:30 INFO  DispatcherServlet:547 - Completed initialization in 0 ms
+2022-01-24 03:19:30 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:19:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:20:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:20:46 WARN  HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m16s483ms590µs100ns).
+2022-01-24 03:20:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:20:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:20:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:20:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:20:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:20:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:20:56 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:21:06 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:21:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:21:23 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:21:26 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:21:36 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:21:46 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:21:56 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:22:06 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:22:06 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 03:22:06 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 03:22:13 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 16320 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 03:22:13 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 03:22:16 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 03:22:16 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 391 ms. Found 1 JPA repository interfaces.
+2022-01-24 03:22:20 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 03:22:20 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:22:20 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 03:22:20 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 03:22:21 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 03:22:21 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 7699 ms
+2022-01-24 03:22:21 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 03:22:21 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 03:22:22 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 03:22:23 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 03:22:23 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 03:22:23 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 03:22:26 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 03:22:26 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:22:28 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 03:22:29 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:22:29 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 03:22:31 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:22:31 INFO  BitoasisApplication:61 - Started BitoasisApplication in 19.408 seconds (JVM running for 22.107)
+2022-01-24 03:22:31 INFO  BitoasisApplication:27 - Spring boot application started
+2022-01-24 03:22:36 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-24 03:22:36 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-01-24 03:22:36 INFO  DispatcherServlet:547 - Completed initialization in 3 ms
+2022-01-24 03:22:36 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:22:41 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:22:51 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:23:45 WARN  HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s534ms674µs200ns).
+2022-01-24 03:23:45 ERROR TickerBtcUsdServiceImpl:75 - Exception in scheduled job ticker service.
+2022-01-24 03:23:49 ERROR TaskUtils$LoggingErrorHandler:95 - Unexpected error occurred in scheduled task
+com.bitoasisExample.bitoasis.exceptions.BusinessException: null
+	at com.bitoasisExample.bitoasis.servicesImpl.TickerBtcUsdServiceImpl.addTickerUsdBtcJob(TickerBtcUsdServiceImpl.java:76) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.3.15.jar:5.3.15]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2022-01-24 03:23:52 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:23:52 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:23:52 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:23:52 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:23:52 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:23:52 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:24:02 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:24:33 WARN  HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=48s77ms35µs).
+2022-01-24 03:24:33 ERROR TickerBtcUsdServiceImpl:75 - Exception in scheduled job ticker service.
+2022-01-24 03:24:33 ERROR TaskUtils$LoggingErrorHandler:95 - Unexpected error occurred in scheduled task
+com.bitoasisExample.bitoasis.exceptions.BusinessException: null
+	at com.bitoasisExample.bitoasis.servicesImpl.TickerBtcUsdServiceImpl.addTickerUsdBtcJob(TickerBtcUsdServiceImpl.java:76) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.3.15.jar:5.3.15]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2022-01-24 03:24:33 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:24:55 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:24:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:25:06 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:26:01 WARN  HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s679ms718µs700ns).
+2022-01-24 03:26:01 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:26:45 ERROR TickerBtcUsdServiceImpl:75 - Exception in scheduled job ticker service.
+2022-01-24 03:26:45 ERROR TaskUtils$LoggingErrorHandler:95 - Unexpected error occurred in scheduled task
+com.bitoasisExample.bitoasis.exceptions.BusinessException: null
+	at com.bitoasisExample.bitoasis.servicesImpl.TickerBtcUsdServiceImpl.addTickerUsdBtcJob(TickerBtcUsdServiceImpl.java:76) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.3.15.jar:5.3.15]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2022-01-24 03:26:48 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:08 ERROR TickerBtcUsdServiceImpl:75 - Exception in scheduled job ticker service.
+2022-01-24 03:27:08 ERROR TaskUtils$LoggingErrorHandler:95 - Unexpected error occurred in scheduled task
+com.bitoasisExample.bitoasis.exceptions.BusinessException: null
+	at com.bitoasisExample.bitoasis.servicesImpl.TickerBtcUsdServiceImpl.addTickerUsdBtcJob(TickerBtcUsdServiceImpl.java:76) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.15.jar:5.3.15]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) [spring-context-5.3.15.jar:5.3.15]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset$$$capture(FutureTask.java:305) [?:?]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java) [?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+2022-01-24 03:27:08 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:09 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=1499, bid=26.215822, bidSize=0.0, ask=35159.0, askSize=24.672285, dailyChange=-3916.0, dailyChangeRelative=-0.1002, lastPrice=35155.0, volume=20178.426, high=39071.0, low=43854.977}
+2022-01-24 03:27:09 INFO  TickerBtcUsdController:93 - Entered Ticker Controller update ticker data with id TickerBtcUsd{Id=1499, bid=26.215822, bidSize=0.0, ask=35159.0, askSize=24.672285, dailyChange=-3916.0, dailyChangeRelative=-0.1002, lastPrice=35155.0, volume=20178.426, high=39071.0, low=43854.977}
+2022-01-24 03:27:09 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:09 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:41 WARN  HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s73ms189µs200ns).
+2022-01-24 03:27:41 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:41 INFO  TickerBtcUsdController:141 - Delete all values of ticker btc-usd called in api controller.
+2022-01-24 03:27:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:44 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:44 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:44 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:44 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:44 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:44 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:44 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:45 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:51 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:27:53 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:28:01 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:28:11 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:28:21 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:28:31 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:28:41 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:28:51 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:29:01 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:29:11 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:29:21 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:29:31 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:29:41 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:29:51 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:30:01 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:30:11 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:30:21 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:30:31 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:30:41 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:30:49 INFO  TickerBtcUsdController:47 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:30:55 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:09 WARN  HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m28s48ms177µs600ns).
+2022-01-24 03:34:11 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:16 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:21 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:34:28 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:34:28 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 03:34:28 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 03:35:16 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 20080 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 03:35:16 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 03:35:21 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 03:35:21 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interfaces.
+2022-01-24 03:35:23 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 25524 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 03:35:24 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 03:35:26 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 03:35:26 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:35:26 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 03:35:26 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 03:35:26 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 03:35:26 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 9944 ms
+2022-01-24 03:35:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 03:35:28 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 03:35:29 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 03:35:29 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 03:35:30 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 03:35:31 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 03:35:31 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 03:35:31 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 599 ms. Found 1 JPA repository interfaces.
+2022-01-24 03:35:35 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 03:35:35 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:35:37 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 03:35:37 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:35:37 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 03:35:37 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 03:35:38 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 03:35:38 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 13754 ms
+2022-01-24 03:35:39 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 03:35:39 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 03:35:39 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 03:35:40 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 03:35:40 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 03:35:41 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:35:41 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 03:35:42 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 03:35:42 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 03:35:43 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:35:43 INFO  BitoasisApplication:61 - Started BitoasisApplication in 27.98 seconds (JVM running for 30.096)
+2022-01-24 03:35:43 INFO  BitoasisApplication:27 - Spring boot application started
+2022-01-24 03:35:46 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 03:35:46 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:35:49 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 03:35:51 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:35:51 WARN  AnnotationConfigServletWebServerApplicationContext:591 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-01-24 03:35:51 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:35:51 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 03:35:51 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 03:35:51 INFO  Http11NioProtocol:173 - Pausing ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:35:51 INFO  StandardService:173 - Stopping service [Tomcat]
+2022-01-24 03:35:51 INFO  Http11NioProtocol:173 - Stopping ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:35:51 INFO  Http11NioProtocol:173 - Destroying ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:35:52 INFO  ConditionEvaluationReportLoggingListener:136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-01-24 03:35:52 ERROR LoggingFailureAnalysisReporter:40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-01-24 03:35:53 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:36:03 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:36:03 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:36:03 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 03:36:03 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-24 03:36:19 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 21416 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-24 03:36:19 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-24 03:36:23 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-24 03:36:23 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 301 ms. Found 1 JPA repository interfaces.
+2022-01-24 03:36:26 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-24 03:36:26 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:36:26 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-24 03:36:26 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-24 03:36:27 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-24 03:36:27 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 7594 ms
+2022-01-24 03:36:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-24 03:36:28 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-24 03:36:29 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-24 03:36:30 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-24 03:36:30 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-24 03:36:30 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-24 03:36:33 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-24 03:36:33 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:36:35 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-24 03:36:36 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-24 03:36:36 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-24 03:36:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:36:37 INFO  BitoasisApplication:61 - Started BitoasisApplication in 19.518 seconds (JVM running for 22.481)
+2022-01-24 03:36:37 INFO  BitoasisApplication:27 - Spring boot application started
+2022-01-24 03:36:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:36:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:37:07 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:37:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:37:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:37:34 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-24 03:37:34 INFO  DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2022-01-24 03:37:34 INFO  DispatcherServlet:547 - Completed initialization in 2 ms
+2022-01-24 03:37:34 INFO  TickerBtcUsdController:48 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:37:39 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:37:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:37:50 INFO  TickerBtcUsdController:48 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:37:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:38:06 INFO  TickerBtcUsdController:48 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:38:10 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:38:17 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:38:27 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:38:37 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:38:47 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:38:48 INFO  TickerBtcUsdController:48 - ticker btc-usd controller called to fetch all ticker btc-usd table. 
+2022-01-24 03:38:57 INFO  TickerBtcUsdServiceImpl:51 - Entered Scheduled job for ticker service class.
+2022-01-24 03:39:43 WARN  HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m12s317ms666µs900ns).
+2022-01-24 03:39:43 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-24 03:39:43 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-24 03:39:43 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.

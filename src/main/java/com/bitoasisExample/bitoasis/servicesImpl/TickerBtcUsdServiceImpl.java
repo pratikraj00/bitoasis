@@ -27,10 +27,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 @Service
@@ -149,9 +146,18 @@ public class TickerBtcUsdServiceImpl implements TickerBtcUsdService{
     public TickerBtcUsd updateTickerBtcUsd(TickerBtcUsd tickerBtcUsd) throws BusinessException {
         logger.debug("Entered ticker bts -usd update for ticker id : "+ tickerBtcUsd.getId());
         try {
-            tickerBtcUsd = manageAudits(tickerBtcUsd, "Local_API");
-            TickerBtcUsd tickerBtcUsdSave = tickerBtcUsdRepository.save(tickerBtcUsd);
-            return tickerBtcUsdSave;
+            if(tickerBtcUsd == null)
+                return TickerBtcUsd.builder().build();
+            Optional<TickerBtcUsd> tickerBtcUsdOptional = tickerBtcUsdRepository.findById(tickerBtcUsd.getId());
+            if(tickerBtcUsdOptional.isPresent())
+            {
+                tickerBtcUsd = manageAudits(tickerBtcUsd, "Local_API");
+                TickerBtcUsd tickerBtcUsdSave = tickerBtcUsdRepository.save(tickerBtcUsd);
+                return tickerBtcUsdSave;
+            }
+            else {
+                return null;
+            }
         }catch (Exception e)
         {
             throw new BusinessException("606", "Update operation failed for ticker Id = "
