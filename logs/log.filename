@@ -1,0 +1,104 @@
+2022-01-23 17:53:31 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 31020 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-23 17:53:31 INFO  BitoasisApplication:624 - No active profile set, falling back to default profiles: default
+2022-01-23 17:53:38 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-23 17:53:39 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 573 ms. Found 1 JPA repository interfaces.
+2022-01-23 17:53:49 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-23 17:53:49 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-23 17:53:49 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-23 17:53:49 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-23 17:53:50 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-23 17:53:50 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 18581 ms
+2022-01-23 17:53:51 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-23 17:53:52 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-23 17:53:53 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-23 17:53:55 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-23 17:53:56 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-23 17:53:56 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-23 17:53:59 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-23 17:53:59 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-23 17:54:01 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-23 17:54:03 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-23 17:54:03 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-23 17:54:03 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:54:03 INFO  BitoasisApplication:61 - Started BitoasisApplication in 33.41 seconds (JVM running for 36.442)
+2022-01-23 17:54:03 INFO  BitoasisApplication:20 - Spring boot application started
+2022-01-23 17:54:13 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:54:23 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:54:33 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:54:43 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:54:53 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:55:03 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:55:13 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:55:23 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:55:33 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:55:43 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:55:53 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:56:03 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:56:13 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:56:23 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:56:33 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:56:43 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:56:53 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:57:03 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:57:13 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:57:23 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:57:33 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:57:43 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:57:53 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:58:03 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:58:13 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:58:23 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:58:33 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:58:43 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:58:53 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:59:03 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:59:13 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:59:23 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:59:33 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:59:43 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 17:59:53 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:00:03 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:37 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:38 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:38 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:38 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:38 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:38 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:39 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:40 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:40 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:40 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:40 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:40 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:40 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:40 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:40 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:41 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:42 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:42 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:42 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:42 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:42 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:42 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:42 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:43 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:06:50 WARN  HikariPool:788 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m53s814ms943µs500ns).
+2022-01-23 18:06:51 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-23 18:06:51 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-23 18:06:51 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.

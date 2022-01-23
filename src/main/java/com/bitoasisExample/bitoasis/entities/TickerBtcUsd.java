@@ -2,10 +2,7 @@ package com.bitoasisExample.bitoasis.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -18,6 +15,7 @@ import java.util.Objects;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
+@Builder
 public class TickerBtcUsd extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -29,23 +27,32 @@ public class TickerBtcUsd extends AbstractAuditingEntity implements Serializable
     @JsonProperty("BID")
     @Column(name = "BID")
     private float bid;
+
     @JsonProperty("BID_SIZE")
     @Column(name = "BID_SIZE")
     private float bidSize;
+
     @JsonProperty("ASK")
     private float ask;
+
     @JsonProperty("ASK_SIZE")
     private float askSize;
+
     @JsonProperty("DAILY_CHANGE")
     private float dailyChange;
+
     @JsonProperty("DAILY_CHANGE_RELATIVE")
     private float dailyChangeRelative;
+
     @JsonProperty("LAST_PRICE")
     private float lastPrice;
+
     @JsonProperty("VOLUME")
     private float volume;
+
     @JsonProperty("HIGH")
     private float high;
+
     @JsonProperty("LOW")
     private float low;
 

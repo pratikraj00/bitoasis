@@ -1,0 +1,93 @@
+2022-01-23 18:07:28 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 19360 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-23 18:07:28 INFO  BitoasisApplication:624 - No active profile set, falling back to default profiles: default
+2022-01-23 18:07:33 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-23 18:07:33 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 204 ms. Found 1 JPA repository interfaces.
+2022-01-23 18:07:38 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-23 18:07:38 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-23 18:07:38 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-23 18:07:38 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-23 18:07:39 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-23 18:07:39 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 10137 ms
+2022-01-23 18:07:40 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-23 18:07:40 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-23 18:07:41 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-23 18:07:42 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-23 18:07:44 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-23 18:07:44 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-23 18:07:48 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-23 18:07:48 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-23 18:07:50 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-23 18:07:53 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-23 18:07:53 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-23 18:07:54 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:07:54 INFO  BitoasisApplication:61 - Started BitoasisApplication in 27.569 seconds (JVM running for 30.738)
+2022-01-23 18:07:54 INFO  BitoasisApplication:20 - Spring boot application started
+2022-01-23 18:08:04 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:08:14 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:08:24 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:08:34 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:08:44 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:08:54 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:09:04 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:09:14 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:09:24 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:09:34 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:09:44 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:09:54 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:10:04 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:10:14 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:10:24 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:10:34 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:10:44 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:10:54 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:11:04 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:11:14 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:11:24 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:11:34 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:11:44 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:11:54 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:12:04 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:12:14 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:12:24 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:12:34 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:12:44 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:12:54 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:13:04 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:13:14 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:13:22 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-23 18:13:22 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-23 18:13:22 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2022-01-23 18:17:09 INFO  BitoasisApplication:55 - Starting BitoasisApplication using Java 16.0.1 on DESKTOP-G9OQU91 with PID 23124 (C:\Users\pratraj\Downloads\bitoasis\bitoasis\target\classes started by pratraj in C:\Users\pratraj\Downloads\Bitoasis\Bitoasis)
+2022-01-23 18:17:09 INFO  BitoasisApplication:628 - The following profiles are active: prod
+2022-01-23 18:17:17 INFO  RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-23 18:17:17 INFO  RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 361 ms. Found 1 JPA repository interfaces.
+2022-01-23 18:17:22 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2022-01-23 18:17:22 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-23 18:17:22 INFO  StandardService:173 - Starting service [Tomcat]
+2022-01-23 18:17:22 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-01-23 18:17:22 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2022-01-23 18:17:22 INFO  ServletWebServerApplicationContext:290 - Root WebApplicationContext: initialization completed in 12443 ms
+2022-01-23 18:17:24 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-23 18:17:24 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-01-23 18:17:25 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-23 18:17:26 INFO  HikariDataSource:110 - HikariPool-1 - Starting...
+2022-01-23 18:17:27 INFO  HikariDataSource:123 - HikariPool-1 - Start completed.
+2022-01-23 18:17:28 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL91Dialect
+2022-01-23 18:17:31 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-23 18:17:31 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-23 18:17:35 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-23 18:17:39 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2022-01-23 18:17:40 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-23 18:17:40 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:17:40 INFO  BitoasisApplication:61 - Started BitoasisApplication in 32.224 seconds (JVM running for 35.613)
+2022-01-23 18:17:40 INFO  BitoasisApplication:20 - Spring boot application started
+2022-01-23 18:17:50 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:18:00 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:18:10 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:18:20 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:18:30 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:18:40 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:18:50 INFO  TickerBtcUsdServiceImpl:49 - Entered Scheduled job for ticker service class.
+2022-01-23 18:18:55 INFO  LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-23 18:18:55 INFO  HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2022-01-23 18:18:55 INFO  HikariDataSource:352 - HikariPool-1 - Shutdown completed.

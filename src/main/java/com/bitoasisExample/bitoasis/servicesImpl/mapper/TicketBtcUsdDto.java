@@ -1,5 +1,7 @@
 package com.bitoasisExample.bitoasis.servicesImpl.mapper;
 
-public class TicketBtcUsdDto {
+import com.bitoasisExample.bitoasis.entities.AbstractAuditingEntity;
+
+public class TicketBtcUsdDto extends AbstractAuditingEntity {
 
 }
