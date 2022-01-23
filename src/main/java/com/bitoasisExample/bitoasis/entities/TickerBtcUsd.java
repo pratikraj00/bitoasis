@@ -1,3 +1,7 @@
+/**
+ * Entity class to store all the ticker btc-usd
+ */
+
 package com.bitoasisExample.bitoasis.entities;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

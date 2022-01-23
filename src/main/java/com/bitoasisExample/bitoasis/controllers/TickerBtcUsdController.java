@@ -1,10 +1,14 @@
+/**
+ * Controller project to handle the ticker btc-usd api and perform crud operations over it.
+ * Owner -Pratik raj
+ */
+
 package com.bitoasisExample.bitoasis.controllers;
 
 import com.bitoasisExample.bitoasis.entities.TickerBtcUsd;
 import com.bitoasisExample.bitoasis.exceptions.BusinessException;
 import com.bitoasisExample.bitoasis.exceptions.ControllerException;
 import com.bitoasisExample.bitoasis.services.TickerBtcUsdService;
-import com.bitoasisExample.bitoasis.servicesImpl.TickerBtcUsdServiceImpl;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -14,13 +18,11 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.http.HttpEntity;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/TickerBtcUsd")
@@ -35,6 +37,9 @@ public class TickerBtcUsdController {
     @Autowired
     private TickerBtcUsdService tickerBtcUsdService;
 
+    /**
+     * Resource to get all the ticker btc-usd
+     */
     @GetMapping("/all")
     @ApiOperation("Returns all ticker btc-usd from database.")
     @ApiResponses(value = {
@@ -65,6 +70,9 @@ public class TickerBtcUsdController {
         }
     }
 
+    /**
+     * Resource to get all the ticker btc-usd by an ID
+     */
     @GetMapping("/{id}")
     public ResponseEntity<?> getTickerBtcUsdById(@PathVariable long id)
     {
@@ -81,6 +89,9 @@ public class TickerBtcUsdController {
         }
     }
 
+    /**
+     * Resource to update the ticker btc-usd with an id
+     */
     @PutMapping("/update")
     @ApiOperation("Updates a ticker btc-usd entity")
     @ApiResponses(value = {
@@ -110,6 +121,9 @@ public class TickerBtcUsdController {
         }
     }
 
+    /**
+     * Resource to delete a particular ticker btc-usd
+     */
     @ApiOperation("Deletes a ticker btc-usd entity")
     @ApiResponses(value = {
             @ApiResponse(code= 202, message ="Successful Delete"),
@@ -131,6 +145,9 @@ public class TickerBtcUsdController {
         }
     }
 
+    /**
+     * Resource to get delete all the ticker btc-usd
+     */
     @ApiOperation("Deletes a ticker btc-usd entity")
     @ApiResponses(value = {
             @ApiResponse(code= 202, message ="Successful Delete"),
